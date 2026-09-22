@@ -1,0 +1,6 @@
+# Runtime parameters — loaded separately by AgentRegistry as Graph(config=...).
+# Split out of config/agent.yaml (the static manifest) per the framework contract: the
+# manifest carries identity/requires only, never runtime-tunable values.
+# Values below are carried over verbatim from the pre-migration agent.yaml.
+max_retry: 3
+timeout_s: 30
